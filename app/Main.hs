@@ -40,7 +40,7 @@ defaultConf :: Conf
 defaultConf = Conf
     { mode = GlossNes
     , size = Gloss.Normal
-    , fps = 30                  -- try 45 on a faster machine
+    , fps = 60
     , optMaxFrames = Nothing
     , debug = False
     , path = "data/dk.nes"
